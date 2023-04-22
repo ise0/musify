@@ -1,0 +1,89 @@
+.page {
+    background-color: var(--background);
+    min-width: 1350px;
+}
+
+.page__container-2 {
+    position: relative;
+    background: no-repeat linear-gradient(180deg, rgba(var(--background-rgb), 0.04) 0%, var(--background) 82.43%),
+        no-repeat url('/images/Hero.png');
+
+    background-size: 880px 54px, 880px;
+    background-position: calc(50% + 325px) 98%, calc(50% + 250px) 73%;
+
+    margin-bottom: 140px;
+}
+
+:global(.theme_dark) {
+    .page__container-1 {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .page__container-1::before {
+        top: 180px;
+        right: calc(50% - 100px);
+        content: '';
+        position: absolute;
+        width: 1000px;
+        height: 1000px;
+        background: radial-gradient(var(--secondary-alt) -25%, rgba(0, 0, 0, 0) 70%);
+    }
+
+    .page__container-1::after {
+        top: -250px;
+        left: calc(50% - 150px);
+        content: '';
+        position: absolute;
+        width: 1000px;
+        height: 1000px;
+        background: radial-gradient(var(--secondary) -30%, rgba(0, 0, 0, 0) 70%);
+    }
+}
+
+.page__header {
+    position: relative;
+    z-index: 1;
+    max-width: 1350px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.page__banner {
+    position: relative;
+    z-index: 1;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.page__trends {
+    max-width: 1350px;
+    margin: 0 auto 120px;
+}
+
+.page__buy {
+    max-width: 1350px;
+    margin: 0 auto 120px;
+}
+
+.page__offer {
+    max-width: 1350px;
+    margin: 0 auto 120px;
+}
+
+.page__accessories {
+    margin: 0 auto 120px;
+}
+
+.page__new-arrivals {
+    max-width: 1350px;
+    margin: 0 auto 120px;
+}
+
+.page__app-download {
+    margin: 0 auto 120px;
+}
+
+.page__footer {
+    width: 100%;
+}

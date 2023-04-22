@@ -1,0 +1,139 @@
+.product-card {
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.product-card__image {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.product-card__features {
+    list-style: disc;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.product-card__name {
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+}
+
+.product-card__feature {
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+}
+
+.product-card__price {
+    color: var(--primary-alt);
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+}
+
+.product-card_size_s {
+    border-width: 1.5px;
+    width: 300px;
+
+    .product-card__container-1 {
+        margin: 0 22px;
+    }
+
+    .product-card__image {
+        margin-bottom: 17px;
+    }
+
+    .product-card__name {
+        margin: 0 0 8px;
+    }
+
+    .product-card__features {
+        margin-bottom: 14px;
+    }
+
+    .product-card__price {
+        margin-bottom: 19px;
+    }
+
+    .product-card__container-2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 26px;
+    }
+
+    .product-card__btn {
+        width: 120px;
+    }
+}
+
+
+.product-card_size_m {
+    border-width: 5px;
+    width: 400px;
+
+
+    .product-card__container-1 {
+        margin: 0 30px;
+    }
+
+    .product-card__image {
+        margin-bottom: 15px;
+    }
+
+    .product-card__name {
+        margin: 0 0 18px;
+    }
+
+    .product-card__features {
+        margin-bottom: 22px;
+    }
+
+    .product-card__price {
+        margin-bottom: 28px;
+    }
+
+    .product-card__container-2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 28px;
+    }
+
+    .product-card__btn {
+        width: 160px;
+    }
+}
+
+:global(.theme_light) .product-card_theme_gray {
+    background-color: #282828;
+    border-style: solid;
+    border-color: #000;
+}
+
+
+:global(.theme_dark) .product-card_theme_gray {
+    background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+    border-style: solid;
+    border-color: #fff;
+
+    .product-card__btn {
+        box-shadow: 0px 0px 33px -11px var(--primary);
+    }
+
+}
+
+
+.product-card_theme_secondary {
+    background-color: var(--secondary);
+    border-style: solid;
+    border-color: var(--secondary-alt);
+
+    .product-card__btn {
+        box-shadow: 0px 0px 33px -11px var(--primary);
+    }
+}

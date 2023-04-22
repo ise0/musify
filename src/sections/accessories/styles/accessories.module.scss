@@ -1,0 +1,27 @@
+.accessories__title {
+    text-align: center;
+    margin: 0 0 100px;
+
+    font-size: 50px;
+    line-height: 79px;
+    letter-spacing: 0.03em;
+    color: var(--on-background);
+}
+
+.accessories__list {
+    width: min-content;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 576px 576px;
+    grid-template-rows: 320px 320px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.accessories__item {
+    border-radius: 25px;
+    overflow: hidden;
+}

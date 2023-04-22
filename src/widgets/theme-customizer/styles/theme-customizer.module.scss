@@ -1,0 +1,33 @@
+.theme-customizer {
+    border-radius: 10px;
+    background-color: var(--surface);
+    padding: 20px 20px 10px;
+    width: 200px;
+}
+
+.theme-customizer__color {
+    color: var(--on-surface);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme-customizer__colors {
+    margin-bottom: 15px;
+}
+
+.theme-customizer__reset {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.theme-customizer__close {
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    width: min-content;
+    background-color: unset;
+    border: none;
+    color: var(--on-surface);
+}

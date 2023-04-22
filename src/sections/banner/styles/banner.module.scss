@@ -1,0 +1,64 @@
+.banner__container-1 {
+    margin-bottom: 64px;
+}
+
+.banner__title {
+    color: var(--on-background);
+    width: 545px;
+    font-size: 75px;
+    line-height: 90px;
+    letter-spacing: 0.05em;
+    margin: 0 0 25px;
+}
+
+.banner__title-highlight {
+    color: var(--primary);
+}
+
+.banner__text {
+    color: var(--on-background);
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 250;
+    letter-spacing: 0.02em;
+    width: 600px;
+    margin: 0 0 58px;
+}
+
+.banner__container-2 {
+    display: flex;
+    align-items: center;
+}
+
+.banner__btn {
+    width: 220px;
+    margin-left: 25px;
+    box-shadow: 0px 0px 35px -15px var(--primary);
+}
+
+.banner__container-3 {
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.banner__scroll-btn {
+    cursor: pointer;
+    background-color: unset;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--on-background);
+}
+
+.banner__products {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 40px;
+    margin-right: 10px;
+}

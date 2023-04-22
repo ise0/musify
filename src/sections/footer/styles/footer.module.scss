@@ -1,0 +1,135 @@
+.footer {
+    background-color: var(--secondary);
+}
+
+.footer__inner {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 90px 0 110px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer__logo {
+    align-self: center;
+    mask: center/ contain no-repeat url('/images/logo.svg');
+    width: 360px;
+    height: 320px;
+    background-color: var(--primary);
+}
+
+.footer__links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__links-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    color: var(--on-secondary);
+}
+
+.footer__link {
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    color: var(--on-secondary);
+}
+
+
+.footer__country-title,
+.footer__contacts-title,
+.footer__subscribe-title,
+.footer__manufacture-title {
+    white-space: nowrap;
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    color: var(--on-secondary);
+}
+
+.footer__country-text,
+.footer__contacts-text,
+.footer__manufacture-text {
+    margin: 0;
+    font-size: 22px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    color: var(--on-secondary);
+}
+
+
+
+.footer__manufacture-text,
+.footer__manufacture-title {
+    line-height: 36px;
+}
+
+.footer__manufacture-text {
+    width: 300px;
+}
+
+.footer__country {
+    margin-top: 66px;
+}
+
+.footer__contacts,
+.footer__manufacture {
+    margin-top: 22px;
+}
+
+
+.footer__container-column-1 {
+    position: relative;
+    display: inline-flex;
+    padding-bottom: 190px;
+}
+
+.footer__container-shop,
+.footer__container-column-1 {
+    margin-right: 80px;
+}
+
+.footer__subscribe {
+    bottom: 0;
+    position: absolute;
+}
+
+.footer__subscribe-input {
+    margin-right: 10px;
+    border: 2px solid var(--primary);
+    box-sizing: border-box;
+    background-color: unset;
+    color: var(--on-secondary);
+    font-size: 22px;
+    padding: 0 15px;
+    width: 310px;
+    height: 54px;
+    border-radius: 20px;
+}
+
+.footer__subscribe-btn {
+    width: 170px;
+}
+
+
+.footer__copyright {
+    position: absolute;
+    bottom: 20px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: var(--on-secondary);
+}

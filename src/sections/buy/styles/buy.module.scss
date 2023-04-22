@@ -1,0 +1,33 @@
+.buy {
+    box-sizing: border-box;
+    padding: 30px 55px 55px;
+    background: linear-gradient(91.42deg, var(--secondary) 0%, var(--secondary-alt) 100%);
+    border-radius: 25px;
+}
+
+.buy__title {
+    font-size: 45px;
+    color: var(--on-secondary);
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.buy__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy__item {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    color: var(--on-secondary);
+}
+
+.buy__item-icon {
+    margin-right: 20px;
+}

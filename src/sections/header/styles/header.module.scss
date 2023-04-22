@@ -1,0 +1,112 @@
+.header {
+    min-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    mask: center/ contain no-repeat url('/images/logo.svg');
+    background-color: var(--primary);
+    width: 145px;
+    height: 145px;
+    margin-right: auto;
+}
+
+.header__nav {
+    margin-right: 93px;
+}
+
+.header__nav-list {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: var(--on-background);
+    font-size: 24px;
+}
+
+
+.header__theme-switcher {
+    cursor: pointer;
+    width: 80px;
+    height: 37px;
+    padding: 0;
+    background-color: unset;
+    border: none;
+    margin-right: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 8px;
+    border-radius: 30px;
+    background-color: var(--background);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+
+    &::before {
+        content: '';
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #888888;
+    }
+
+    &::after {
+        content: '';
+        width: 28px;
+        height: 28px;
+        background: center/ contain no-repeat url('/images/Converter-sun.svg');
+    }
+}
+
+:global(.theme_dark) {
+    .header__theme-switcher {
+        &::before {
+            content: '';
+            width: 28px;
+            height: 28px;
+            background: center no-repeat url('/images/Moon.svg');
+        }
+
+        &::after {
+            content: '';
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: unset;
+            background-color: #888888;
+
+        }
+    }
+}
+
+
+
+.header__search,
+.header__cart {
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+    height: auto;
+    background-color: unset;
+    border: none;
+}
+
+.header__search {
+    margin-right: 40px;
+}
+
+
+.header__cart {
+    margin-right: 62px;
+}
+
+.header__login-btn {
+    width: 120px;
+}

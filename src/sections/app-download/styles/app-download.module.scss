@@ -1,0 +1,40 @@
+.app-download {
+    box-sizing: border-box;
+    width: 1350px;
+    padding: 80px 120px;
+    display: flex;
+
+    background: linear-gradient(91.42deg, var(--secondary) 0%, var(--secondary-alt) 100%);
+    border-radius: 25px;
+}
+
+.app-download__qrcode {
+    margin-right: 120px;
+}
+
+.app-download__title {
+    text-align: center;
+    margin: 32px 0 15px;
+    font-size: 50px;
+    line-height: 68px;
+    letter-spacing: 0.03em;
+    color: var(--on-secondary);
+}
+
+.app-download__text {
+    display: inline-block;
+    text-align: center;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: var(--on-secondary);
+    margin-bottom: 30px;
+}
+
+.app-download__container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 445px;
+    margin: 0 auto;
+}
